@@ -8,6 +8,7 @@ class Vehicle:
 
   def show(self):
     return "car name is", self.car_name, "their max_speed is",self.max_speed, "and their milage is", self.milage,"and price is",self.price
+    
 
 obj=Vehicle()
 obj.first('mahran',234,324,22344)
